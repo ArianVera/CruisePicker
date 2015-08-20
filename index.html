@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Revelex | Sailing Test</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+	<div id="title">
+		<h1 id="choose_title">Choose Your Sailings</h1>
+    	<p id="pick_text">(Pick one for each box)</p>
+	</div><!--end .title -->
+	<div class="options">
+    <form name="radioForm">
+    <!---------------------------------------------------------- CRUISE 1 -------------------------------->
+    	<div class="cruise" id="cruise1">
+        	<figure class="cruise_image" id="sailing1_img">
+                <div class="caption_price">
+                	<div class="starting_at">Starting at</div>
+                	<div class="starting_at_price" id="starting_price1">$0</div>
+                </div><!-- end. caption_price -->
+            </figure>
+            <div class="cruise_description">
+            	<div class="cruise_line_name" id="cruise_line1_name">Cruise Line Name</div> - <div class="cruise_ship_name" id="cruise_ship1_name">Cruise Ship Name</div>
+                <div class="sailing_title" id="cruise_sailing_title1">Cruise Sailing Title</div>
+                <div class="radio_button"><input type="radio" name="crusie1" id="radio1_1"  ><span class="sailing_date" id="sailing1_date1">Sailing Date 1</span><span class="sailing_date_price" id="sailing1_date1_price">$0</span></div>
+                <div class="radio_button"><input type="radio" name="crusie1" id="radio1_2"  ><span class="sailing_date" id="sailing1_date2">Sailing Date 2</span><span class="sailing_date_price" id="sailing1_date2_price">$0</span></div>
+               <div class="radio_button"> <input type="radio" name="crusie1" id="radio1_3"  ><span class="sailing_date" id="sailing1_date3">Sailing Date 3</span><span class="sailing_date_price" id="sailing1_date3_price">$0</span></div>
+            </div><!--end .cruise_description -->    
+        </div><!--------------------------------------------- end. cruise1 ------------------------------->
+        
+         <!---------------------------------------------------------- CRUISE 2 -------------------------------->
+    	<div class="cruise" id="cruise2">
+        	<figure class="cruise_image" id="sailing2_img">
+                <div class="caption_price">
+                	<div class="starting_at">Starting at</div>
+                	<div class="starting_at_price" id="starting_price2">$0</div>
+                </div><!-- end. caption_price -->
+            </figure>
+            <div class="cruise_description">
+            	<div class="cruise_line_name" id="cruise_line2_name">Cruise Line Name</div> - <div class="cruise_ship_name" id="cruise_ship2_name">Cruise Ship Name</div>
+                <div class="sailing_title" id="cruise_sailing_title2">Cruise Sailing Title</div>
+                <div class="radio_button"><input type="radio" name="crusie2" id="radio2_1"  ><span class="sailing_date" id="sailing2_date1">Sailing Date 1</span><span class="sailing_date_price" id="sailing2_date1_price">$0</span></div>
+                <div class="radio_button"><input type="radio" name="crusie2" id="radio2_2"  ><span class="sailing_date" id="sailing2_date2">Sailing Date 2</span><span class="sailing_date_price" id="sailing2_date2_price">$0</span></div>
+               <div class="radio_button"> <input type="radio" name="crusie2" id="radio2_3"  ><span class="sailing_date" id="sailing2_date3">Sailing Date 3</span><span class="sailing_date_price" id="sailing2_date3_price">$0</span></div>
+            </div><!--end .cruise_description -->    
+        </div><!--------------------------------------------- end. cruise2 ------------------------------->       
+
+         <!---------------------------------------------------------- CRUISE 3 -------------------------------->
+    	<div class="cruise" id="cruise3">
+        	<figure class="cruise_image" id="sailing3_img">
+                <div class="caption_price">
+                	<div class="starting_at">Starting at</div>
+                	<div class="starting_at_price" id="starting_price3">$0</div>
+                </div><!-- end. caption_price -->
+            </figure>
+            <div class="cruise_description">
+            	<div class="cruise_line_name" id="cruise_line3_name">Cruise Line Name</div> - <div class="cruise_ship_name" id="cruise_ship3_name">Cruise Ship Name</div>
+                <div class="sailing_title" id="cruise_sailing_title3">Cruise Sailing Title</div>
+                <div class="radio_button"><input type="radio" name="crusie3" id="radio3_1" ><span class="sailing_date" id="sailing3_date1">Sailing Date 1</span><span class="sailing_date_price" id="sailing3_date1_price">$0</span></div>
+                <div class="radio_button"><input type="radio" name="crusie3" id="radio3_2" ><span class="sailing_date" id="sailing3_date2">Sailing Date 2</span><span class="sailing_date_price" id="sailing3_date2_price">$0</span></div>
+               <div class="radio_button"> <input type="radio" name="crusie3" id="radio3_3" ><span class="sailing_date" id="sailing3_date3">Sailing Date 3</span><span class="sailing_date_price" id="sailing3_date3_price">$0</span></div>
+            </div><!--end .cruise_description -->    
+        </div><!--------------------------------------------- end. cruise3 ------------------------------->   
+    </form>
+    </div><!-- end .options -->
+</div><!-- end #container -->    
+	<div id="total">
+    	<div class="inner_container">
+    		<h1 id="total_title">Your Selected Sailings Total</h1>
+    		<p id="total_amount_field"><span class="dollar_sign">$<span id="total_amount">0</span></p>
+    	</div><!-- end .inner_container -->
+    </div><!--end total -->
+<script src="js/main.js"></script>
+</body>
+</html>
